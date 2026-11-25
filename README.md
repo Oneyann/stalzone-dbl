@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Tests](https://github.com/Oneyann/stalzone-dbl/actions/workflows/tests.yml/badge.svg)](https://github.com/Oneyann/stalzone-dbl/actions/workflows/tests.yml)
 [![Issues](https://img.shields.io/github/issues/Oneyann/stalzone-dbl)](https://github.com/Oneyann/stalzone-dbl/issues)
+[![Docs](https://readthedocs.org/projects/stalzone-dbl/badge/?version=latest)](https://stalzone-dbl.readthedocs.io/)
 
 Асинхронный нечёткий поиск, предметы и рецепты из базы Stalzone. Без зависимостей.
 
