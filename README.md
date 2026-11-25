@@ -1,10 +1,14 @@
 # stalzone-dbl
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://pypi.org/project/stalzone-dbl/)
+
 Асинхронный нечёткий поиск, предметы и рецепты из базы Stalzone. Без зависимостей.
 
 ```bash
 pip install stalzone-dbl
 ```
+
+## Быстрый старт
 
 ```python
 import asyncio
@@ -44,8 +48,18 @@ asyncio.run(main())
 | `hideout_recipes(...)` | Полный `hideout_recipes.json` |
 | `hideout_recipes_for(item_id, ...)` | Рецепты убежища: `produces` и `uses` |
 
-Параметры: `threshold=0.5`, `stale_time=900`, `asset_ttl=86400`, `asset_capacity=128`, `sync_on_update=True`.
+## Настройки
 
-Токен GitHub берётся из `STALZONE_GITHUB_TOKEN`, `GITHUB_TOKEN` или `GH_TOKEN`. Без токена лимит — 60 запросов в час.
+| Параметр | По умолчанию |
+| --- | --- |
+| `threshold` | `0.5` |
+| `stale_time` | `900` |
+| `asset_ttl` | `86400` |
+| `asset_capacity` | `128` |
+| `sync_on_update` | `True` |
+
+## Примечания
+
+- Токен GitHub берётся из `STALZONE_GITHUB_TOKEN`, `GITHUB_TOKEN` или `GH_TOKEN`. Без токена лимит — 60 запросов в час.
 
 Данные: [EXBO-Studio/stalzone-database](https://github.com/EXBO-Studio/stalzone-database). Идея: [stalcraft-api](https://github.com/onejeuu/stalcraft-api).
