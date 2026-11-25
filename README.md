@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://pypi.org/project/stalzone-dbl/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Tests](https://github.com/Oneyann/stalzone-dbl/actions/workflows/tests.yml/badge.svg)](https://github.com/Oneyann/stalzone-dbl/actions/workflows/tests.yml)
 
 Асинхронный нечёткий поиск, предметы и рецепты из базы Stalzone. Без зависимостей.
 
