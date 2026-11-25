@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stalzone-dbl"
+version = "0.2.0"
+description = "Async lookup for the official Stalzone database"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "stalzone-dbl contributors" }]
+keywords = ["stalzone", "stalcraft", "database", "search", "fuzzy", "recipes", "async"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+stalzone_dbl = ["py.typed"]
