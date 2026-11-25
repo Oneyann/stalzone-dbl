@@ -1,5 +1,6 @@
 site_name: stalzone-dbl
 site_description: Асинхронный нечёткий поиск, предметы и рецепты из базы Stalzone
 repo_url: https://github.com/Oneyann/stalzone-dbl
+edit_uri: edit/main/docs/
 nav:
   - Главная: index.md
