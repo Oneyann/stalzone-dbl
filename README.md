@@ -1,6 +1,7 @@
 # stalzone-dbl
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://pypi.org/project/stalzone-dbl/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Асинхронный нечёткий поиск, предметы и рецепты из базы Stalzone. Без зависимостей.
 
@@ -57,6 +58,12 @@ asyncio.run(main())
 | `asset_ttl` | `86400` |
 | `asset_capacity` | `128` |
 | `sync_on_update` | `True` |
+
+## Тесты
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
 
 ## Примечания
 
